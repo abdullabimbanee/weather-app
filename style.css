@@ -1,0 +1,81 @@
+.body{
+    background-image: url('cloudsky.jpg');
+}
+.navbar-brand{
+    border-color: rgb(176, 193, 76);
+    border-radius: 10px;
+    background-color: rgb(106, 231, 168);
+   height: 50px;
+    width:  60%;
+    text-align: center
+    
+}
+.h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+.btn-primary{
+    width: 110px;
+    
+}
+
+ .container{ 
+        border-color: white;
+        max-width: 1500px;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+ }
+    
+
+.box{
+    
+    width: 60%;
+    height: 300px;
+    margin: 40px;
+    line-height: 25px;  
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0 0 20px;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#weather {
+    display: none;
+}
+
+#weather h2 {
+    margin: 0 0 10px;
+}
+
+#weather p {
+    margin: 5px 0;
+}
